@@ -18,10 +18,10 @@ terraform {
 
   }
   backend "remote" {
-    organization = "ned-in-the-cloud"
+    organization = "cloudyuva"
 
     workspaces {
-      name = "terraform-tuesday-ado-setup"
+      name = "azure-pipeline"
     }
   }
 }
