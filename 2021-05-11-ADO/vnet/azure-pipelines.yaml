@@ -101,7 +101,7 @@ stages:
       vmImage: ubuntu-latest
   
     steps:
-  # - task: TerraformInstaller@0
+  #  - task: TerraformInstaller@0
   #    displayName: Install Terraform
   #    inputs:
   #      terraformVersion: 'latest'
