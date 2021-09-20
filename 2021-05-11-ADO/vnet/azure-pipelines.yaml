@@ -19,7 +19,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    - task: TerraformInstaller@0
+    - task: TerraformInstaller
       displayName: Install Terraform
       inputs:
         terraformVersion: 'latest'
@@ -49,7 +49,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    - task: TerraformInstaller@0
+    - task: TerraformInstaller
       displayName: Install Terraform
       inputs:
         terraformVersion: 'latest'
@@ -99,7 +99,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    - task: TerraformInstaller@0
+    - task: TerraformInstaller
       displayName: Install Terraform
       inputs:
         terraformVersion: 'latest'
